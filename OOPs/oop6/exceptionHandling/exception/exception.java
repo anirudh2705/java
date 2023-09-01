@@ -20,6 +20,7 @@ public class exception {
             System.out.println(e.getMessage());
         }finally{
             // this always executes
+            // multiple finally block cannot be created
             System.out.println("finally block");
         }
     }
