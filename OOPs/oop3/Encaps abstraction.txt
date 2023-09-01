@@ -1,0 +1,14 @@
+Encapsulation :-
+It is the process of wrapping up the implementations of the data members and methods in a class
+
+Abstraction :- 
+It hides unnessary details and show the necessary details.
+It can be achieved by abstract classes and interfaces.
+
+Encapsulation vs Abstraction :-
+Abstraction focuses on external things and encapsulation works on internal things
+Abstraction is the process of gaining information, encapsulaton is the  process of containing the information.
+
+Data hiding vs Encapsulation :-
+Data hiding focuses on data security , encapsulation focuses on hiding unnecessary information.
+In data hiding the data we hide should be private andshould not be accessed directly, in encapsulation the data can beanything public protected etc.

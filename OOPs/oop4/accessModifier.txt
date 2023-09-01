@@ -1,0 +1,28 @@
+ 
+            │ Class │ Package │ Subclass │ Subclass │ World
+            │       │         │(same pkg)│(diff pkg)│(diff pkg & not subclass)
+────────────┼───────┼─────────┼──────────┼──────────┼──────────────────────────
+public      │   +   │    +    │    +     │     +    │   +
+────────────┼───────┼─────────┼──────────┼──────────┼──────────────────────────
+protected   │   +   │    +    │    +     │     +    │
+────────────┼───────┼─────────┼──────────┼──────────┼──────────────────────────
+no modifier │   +   │    +    │    +     │          │
+────────────┼───────┼─────────┼──────────┼──────────┼──────────────────────────
+private     │   +   │         │          │          │
+
+When no access modifier is used, then by default the member of a class is public within its own package,
+but cannot be accessed outside of its package.
+
+when touse which access specifier :-
+
+private :- it is used for sencitive data can be accessed by geter and seter methods. [refer : oop3.inheritance.Boxweight & oop3.inheritance.main]
+no modifier (default) :- it is used for the methods which is not used outside the particular package.
+
+protected :- 
+        protected allows access from subclasses and from other classes in the same package.
+        We can use child class to use protected member outside the package but only child class object can access it.
+        That's why any Derived class instance can access the protected method in Base.
+        The other line creates a Base instance (not a Derived instance!!).
+        And access to protected methods of that instance is only allowed from objects of the same package.
+
+public :- can be used anywhere.

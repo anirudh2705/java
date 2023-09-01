@@ -1,0 +1,6 @@
+collection framework:-
+    provides a same set of methods for different data structures
+    it is under java.util package
+
+Arraylist :- gives us multiple thread access and unsyncronised, it is fast
+vector :-  is sync and its slow as one thread is accessing the vector the 2nd one chould wait to access, it's slow

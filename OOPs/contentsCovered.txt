@@ -1,0 +1,22 @@
+Static
+Non Static
+Singleton class
+properties 
+constructor overriding
+constructor overloading
+Inheritance & types
+Polymorphism & types
+Encapsulation 
+Abstraction
+Access control 
+object class
+object cloning
+Abstractclasses
+Interfaces
+Generics
+Exception Handeling
+collection framework
+Lambda Expressions
+Enum
+File Handeling
+Fast I/O
